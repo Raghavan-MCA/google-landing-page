@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif
+}
+
+nav {
+    text-align: right;
+    padding: 10px;
+}
+
+.menu {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    position: relative;
+    top: -10px;
+    margin-right: 16px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+    border-width: 20px;
+
+}
+
+.material-icons {
+    position: relative;
+    top: -3px;
+    margin-right: 16px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.material-icons:hover {
+    background-color: rgb(199, 199, 212);
+    border-radius: 40%;
+}
+
+.profil {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: -3px;
+    cursor: pointer;
+}
+
+.profil:hover {
+    background-color: rgb(199, 199, 212);
+    border-radius: 40%;
+}
+
+section {
+    text-align: center;
+    padding: 144px;
+}
+
+#mingle {
+    position: relative;
+    width: 582px;
+    display: inline;
+}
+
+#searchbar {
+    width: 582px;
+    color: rgb(138, 134, 134);
+    border: 1px solid #dfe1e5;
+    font-size: 17px;
+    padding: 14px;
+    padding-left: 30px;
+    border-radius: 24px;
+    outline: none;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 0.5px 5px 0 rgb(153, 148, 148);
+}
+
+#searchbar:hover {
+    box-shadow: 0 1px 6px 0 rgb(153, 148, 148);
+    border-color: rgb(153, 148, 148);
+}
+
+#searchbar:focus {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+
+}
+
+#mingle>img {
+    width: 24px;
+    position: absolute;
+    top: 0px;
+    right: 16px;
+}
+
+.buttonss {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    color: #222;
+    margin-top: 18px;
+    border-radius: 5px;
+}
+
+.buttonss:hover {
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid;
+    box-shadow: 0 1px 6px 0 rgb(153, 148, 148);
+    border-color: rgb(153, 148, 148);
+    border-radius: 5px;
+
+}
+
+.buttonss:first-of-type {
+    margin-right: 16px;
+}
+
+#dropdown {
+    /* width: 285px;
+    height: 43%; */
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+    position: absolute;
+    right: 75px;
+    display: none;
+    background-color: #ffffff;
+    min-width: 200px;
+    min-height: 210px;
+    max-width: 260px;
+    max-height: 220px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+#raper {
+    display: inline-block;
+}
+
+#raper:hover #dropdown {
+    display: block;
+}
+
+.icon {
+
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    padding: 5px;
+}
+
+.icon:hover {
+    background-color: rgb(190, 190, 235);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.icon>img {
+    width: 50px;
+    height: 50px;
+    /* margin-top: 20px; */
+    padding: 10%;
+
+}
+
+.icon>p {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+}
